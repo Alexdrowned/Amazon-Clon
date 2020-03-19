@@ -14,3 +14,15 @@ footer a{
     background-color: grey;
     text-decoration: none;
   }
+
+@media  (max-width: 500px){
+  .down {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+  }
+  .down a{
+    text-align: start;
+    float: left;
+  }
+}

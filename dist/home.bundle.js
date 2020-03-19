@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "9cfb670dc2d90ed48048";
+/******/ 	var hotCurrentHash = "07e4c8545b98173446f7";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -802,7 +802,7 @@
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"footer {\\r\\n    display: flex;\\r\\n    background-color: blanchedalmond;\\r\\n    margin-top: auto;\\r\\n    width: 100%;\\r\\n    justify-content: center;\\r\\n    padding: 10px 10px;\\r\\n  }\\r\\n  \\r\\nfooter a{\\r\\n    color: black;\\r\\n    float: center;\\r\\n    justify-content: space-between;\\r\\n    background-color: grey;\\r\\n    text-decoration: none;\\r\\n  }\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/public/styles/css/footer.css?./node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"footer {\\r\\n    display: flex;\\r\\n    background-color: blanchedalmond;\\r\\n    margin-top: auto;\\r\\n    width: 100%;\\r\\n    justify-content: center;\\r\\n    padding: 10px 10px;\\r\\n  }\\r\\n  \\r\\nfooter a{\\r\\n    color: black;\\r\\n    float: center;\\r\\n    justify-content: space-between;\\r\\n    background-color: grey;\\r\\n    text-decoration: none;\\r\\n  }\\r\\n\\r\\n@media  (max-width: 500px){\\r\\n  .down {\\r\\n    display: flex;\\r\\n    flex-direction: column;\\r\\n    text-align: start;\\r\\n  }\\r\\n  .down a{\\r\\n    text-align: start;\\r\\n    float: left;\\r\\n  }\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/public/styles/css/footer.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -813,7 +813,7 @@ eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../.
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"\\r\\n#H header{\\r\\n    display: flex;\\r\\n    background-color: dodgerblue;\\r\\n    color: white; \\r\\n    justify-content: space-between;\\r\\n    /*flex-direction: row;*/\\r\\n}\\r\\n\\r\\n#H header a{\\r\\n    color: floralwhite;\\r\\n}\\r\\n\\r\\n#H .rigth a{\\r\\n   color: forestgreen;\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/public/styles/css/header.css?./node_modules/css-loader/dist/cjs.js");
+eval("// Imports\nvar ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\");\nexports = ___CSS_LOADER_API_IMPORT___(false);\n// Module\nexports.push([module.i, \"\\r\\nbody{\\r\\n    padding: 0;\\r\\n    margin: 0;\\r\\n    background-color: indianred;\\r\\n}\\r\\n#H header{\\r\\n    display: flex;\\r\\n    background-color: dodgerblue;\\r\\n    color:#b8b6b4;\\r\\n    justify-content: space-between;\\r\\n    /*flex-direction: row;*/\\r\\n}\\r\\n\\r\\n#H header a{\\r\\n    color: floralwhite;\\r\\n}\\r\\n\\r\\n#H .rigth a{\\r\\n   color: forestgreen;\\r\\n}\\r\\n\\r\\n@media (max-width: 500px) {\\r\\n    #H header{\\r\\n        flex-direction: column;\\r\\n    }\\r\\n\\r\\n    #H .rigth a{\\r\\n        display: flex;\\r\\n        color: forestgreen;\\r\\n        flex-direction: column;\\r\\n        text-align: center;\\r\\n     }\\r\\n}\", \"\"]);\n// Exports\nmodule.exports = exports;\n\n\n//# sourceURL=webpack:///./src/public/styles/css/header.css?./node_modules/css-loader/dist/cjs.js");
 
 /***/ }),
 
@@ -895,7 +895,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nconst Footer = () => {\n  con
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nconst Header = () => {\n  const view = `\n        <header>\n            <a href=\"\">Dev-Games</a>\n                <div class='rigth'>\n                    <a href=\"\"> Registrate </a>            \n                    <a href=\"\"> Inicia Sesion </a>\n                    <a href=\"#\"> Contactanos </a>\n                </div>\n        </header>\n        `;\n  return view;\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Header);\n\n//# sourceURL=webpack:///./src/public/templates/Header.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nconst Header = () => {\n  const view = `\n        <header>\n            <h2><a href=\"\">Dev-Games</a></h2>\n                <div class='rigth'>\n                    <a href=\"\"> Registrate </a>            \n                    <a href=\"\"> Inicia Sesion </a>\n                    <a href=\"#\"> Contactanos </a>\n                </div>\n        </header>\n        `;\n  return view;\n};\n\n/* harmony default export */ __webpack_exports__[\"default\"] = (Header);\n\n//# sourceURL=webpack:///./src/public/templates/Header.js?");
 
 /***/ })
 
