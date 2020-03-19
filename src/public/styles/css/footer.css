@@ -1,0 +1,16 @@
+footer {
+    display: flex;
+    background-color: blanchedalmond;
+    margin-top: auto;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 10px;
+  }
+  
+footer a{
+    color: black;
+    float: center;
+    justify-content: space-between;
+    background-color: grey;
+    text-decoration: none;
+  }

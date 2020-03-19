@@ -1,0 +1,23 @@
+
+#H header{
+    display: flex;
+    background-color: dodgerblue;
+    color: white; 
+    justify-content: space-between;
+    /*flex-direction: row;*/
+}
+
+#H header a{
+    color: floralwhite;
+}
+
+#H .rigth a{
+   color: forestgreen;
+}
+
+@media (max-width: 600px) {
+    #H header{
+        background-color: hotpink;
+    }
+
+}
