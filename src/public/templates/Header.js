@@ -6,9 +6,8 @@ const Header = () => {
                 <img src="../src/public/assets/icons/gamepad.png" alt="Mando">
                 <h2><a href="">Dev-Games</a></h2>
             </div>
-            <div class='rigth'>
-                    <a href=""> Registrate </a>            
-                    <a href=""> Inicia Sesion </a>
+            <div class='rigth'>  
+                    <h4 id='event' href=""> Inicia Sesion </h4>
                     <a href="#"> Contactanos </a>
             </div>
             

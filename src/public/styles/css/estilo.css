@@ -131,7 +131,8 @@ body {
 }
 
 body {
-    background: url(../../../images/inicio.jpg);
+    /*background: url(../../assets/images/inicio.jpg);*/
+    /*background: url(../assets/images/inicio.jpg);*/
     background-size: cover;
     background-attachment: fixed;
     font-family: monospace;
