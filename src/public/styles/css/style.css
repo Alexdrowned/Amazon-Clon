@@ -1,0 +1,41 @@
+* {
+    margin:0;
+    padding: 0;
+}
+#B h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0px;
+}
+
+#B .principal {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#B .contenedor{
+    height: auto;
+    width: auto;
+    margin:0;
+    padding: 0;
+}
+#B .aux{
+    text-align: center;
+    background: #00796b;
+}
+
+#B .header {
+    background: blueviolet;
+    height: 50px;
+    width: auto;
+}
+
+#B .sidebar { 
+    background: orange;
+    height: 400px;
+    width: auto;
+}
+
+#B .contenido {
+    height: 400px;
+    width: auto;
+    justify-content: left;
+}

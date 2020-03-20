@@ -3,6 +3,9 @@ body{
     padding: 0;
     margin: 0;
     background-color: indianred;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 #H header{
     display: flex;
@@ -41,4 +44,16 @@ body{
         flex-direction: column;
         text-align: center;
      }
+}
+#H .button {
+    background: gray;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 0px;
+    text-align: center;
+    width: 200px;
+    text-decoration: none;
+    box-shadow: 3px 3pz 3px black;
 }

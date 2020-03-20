@@ -10,7 +10,8 @@ const Header = () => {
                     <a href=""> Registrate </a>            
                     <a href=""> Inicia Sesion </a>
                     <a href="#"> Contactanos </a>
-                </div>
+            </div>
+            
         </header>
         `;  
         return view;
