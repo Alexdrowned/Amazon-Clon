@@ -131,7 +131,7 @@ body {
 }
 
 body {
-    /*background: url(../../assets/images/inicio.jpg);*/
+    background: url(../../assets/images/inicio.jpg);
     /*background: url(../assets/images/inicio.jpg);*/
     background-size: cover;
     background-attachment: fixed;
