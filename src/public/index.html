@@ -5,21 +5,105 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dev-Games</title>
     <link rel="icon" href="../src/public/assets/icons/aventuras.png">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="../../flexboxgrid/css/flexboxgrid.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="../src/public/jquery-3.1.1.min.js"></script>    
-    <script src="../src/public/inicio.js"></script>
+    
+   
+    <link rel="stylesheet" href="../src/public/styles/css/style.css">
+    <link rel="stylesheet" href="../src/public/styles/css/slide.css">
+    <link rel="stylesheet" href="../src/public/styles/css/productos.css">
 </head>
 <body>
-   <header id = 'H'>
-       <h1>Esto no es una simulacion unu </h1>
-   </header> 
-   <p id="demo"></p> 
-   <header id = 'B'>
-    <h1>Esto no es una simulacion unu </h1>
-    </header>
+   <div id="H">
+
+   </div>
+   <div id = 'B'>
+    <header>
+        <header class="busqueda">
+            <div class="box">
+                <h1></h1>
+                <form>
+                    <input type="text" name="" placeholder="Buscar...">
+                    <input type="submit" value="Search">
+                </form>
+            </div>
+        <header class="menu">
+            <nav class ="navegacion">
+                <ul class="menuu">
+                    <li><a href="#">Torneos</a></li>
+                    <li><a href="#">Ranking</a></li>
+                    <li><a href="#">Amigos</a></li>
+                    <li><a href="#">Ligas</a>
+                    <li><a href="#">Tutoriales</a></li>
+                    <li><a href="#">Cuenta</a></li>
+    
+                </ul>
+            </nav>
+    
+        </header>
+        </header>
+     </header>
+    
+    
+    <div class="container-all">
+        <input type="radio" id="1" name="image-slide" hidden/>
+        <input type="radio" id="2" name="image-slide" hidden/>
+        <input type="radio" id="3" name="image-slide" hidden/>
+        <input type="radio" id="4" name="image-slide" hidden/>
+    
+        <div class="slide">
+            <div class="itm-slide">
+                <img src="../src/public/assets/images/LOL.jpg">
+            </div>
+            <div class="itm-slide">
+                <img src="../src/public/assets/images/crash.jpg">
+            </div>
+            <div class="itm-slide">
+                <img src="../src/public/assets/images/Batman.jpg">
+            </div>
+            <div class="itm-slide">
+                <img src="../src/public/assets/images/nintendo switch.jpg">
+            </div>
+        </div>
+    </div>
+    
+    <div class="pagination">
+        <label for="" class="pagination-itm" for ="1">
+            <img src="../src/public/assets/images/LOL.jpg">
+        </label>
+        <label for="" class="pagination-itm" for ="2">
+            <img src="../src/public/assets/images/crash.jpg">
+        </label>
+        <label for="" class="pagination-itm" for ="3">
+            <img src="../src/public/assets/images/Batman.jpg">
+        </label>
+        <label for="" class="pagination-itm" for ="4">
+            <img src="../src/public/assets/images/nintendo switch.jpg">
+        </label>
+    </div>
+    
+    
+    <div class="continer">
+        <div class="card">
+            <img src= "../src/public/assets/images/LOL.jpg">
+            <a href="#">Registrate en el Torneo</a>
+            <p>Precio $100</p>
+        </div>
+    
+        <div class="card">
+            <img src= "../src/public/assets/images/Ahri.png">
+            <a href="#">Ahri Skin</a>
+            <p>Actualización de Skin</p>
+        </div>
+    
+        <div class="card">
+            <img src= "../src/public/assets/images/minecraft.jpg">
+            <a href="#">Premios</a>
+            <p>Primeros 5 lugares</p>
+        </div>
+   </div>
+   
+        
+    
+</div>
    <footer id='F'>
     
    </footer>

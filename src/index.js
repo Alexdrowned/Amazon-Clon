@@ -14,7 +14,7 @@ import Inicio from './public/templates/Inicio';
 //Inyectando elementos necesarios de las funciones
 document.getElementById("H").innerHTML = Header();
 document.getElementById('F').innerHTML = Footer();
-document.getElementById("B").innerHTML = Body();
+
 
 //Eventos
 document.getElementById("event").onclick =  function(){

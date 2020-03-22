@@ -7,7 +7,7 @@ const Header = () => {
                 <h2><a href="">Dev-Games</a></h2>
             </div>
             <div class='rigth'>  
-                    <h4 id='event' href=""> Inicia Sesion </h4>
+                    <h4 id='event' href="" style='cursor:pointer;'> Inicia Sesion </h4>
                     <a href="#"> Contactanos </a>
             </div>
             
